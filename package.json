@@ -2,7 +2,7 @@
 , "name": "uber-cache-memcached"
 , "description": "Memcached Engine for uber-cache"
 , "version": "0.1.0-DEV"
-, "tags":
+, "keywords":
   [ "cache"
   , "memory"
   , "memcached"
@@ -11,6 +11,12 @@
   { "type": "git"
   , "url": "git@github.com:natim/uber-cache-memcached"
   }
+, "homepage": "https://github.com/natim/uber-cache-memcached/"
+, "bugs": "https://github.com/natim/uber-cache-memcached/issues/"
+, "licenses": 
+  [{ "type": "BSD"
+  , "url": "http://opensource.org/licenses/bsd-license.php"
+  }]
 , "main": "memcachedEngine.js"
 , "scripts":
   { "test": "mocha -r should"
@@ -25,7 +31,7 @@
   { "mocha": "*"
   , "async": "*"
   , "should": "*"
-  , "uber-cache": ">= 0.2.0"
+  , "uber-cache": ">=0.2.0"
   , "jshint": "2.x"
   }
 }
