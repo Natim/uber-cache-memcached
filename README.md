@@ -10,7 +10,7 @@
 
 var cache = require('uber-cache').createUberCache({
   engine: require('uber-cache-memcached')({
-    serverLocations: ["127.0.0.1:11211"]
+    serverLocations: ['127.0.0.1:11211']
   })
 });
 
